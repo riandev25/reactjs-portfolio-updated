@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+}
+
+figcaption {
+  color: #fff;
+  font-size: 12px;
+}
+
+.skills-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  /* top: 0; */
+  padding: 5% 0;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+}
